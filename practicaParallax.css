@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +16,9 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .sec2 {
@@ -24,7 +28,8 @@ section {
     background-position: center center;
     background-attachment: fixed;
 }
-.sec3{
+
+.sec3 {
     background: url(./imagenes/paint.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +37,22 @@ section {
     background-attachment: fixed;
 }
 
-.secText{
+.secText {
     padding: 50px;
     height: auto;
+}
+
+h1 {
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    width: 7.5%;
+    height: 15%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
